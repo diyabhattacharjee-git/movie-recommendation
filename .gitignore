@@ -2,3 +2,62 @@ vscode/
 .idea/
 .DS_Store
 Thumbs.db
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# --- Environment variables / secrets ---
+.env
+*.env
+.env.local
+.env.*.local
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+notebooks/*.ipynb_checkpoints/
+
+# --- Data (large / from Kaggle, don't commit) ---
+data/*.csv
+data/processed.csv
+!data/.gitkeep
+
+# --- Trained models / artifacts (large, regenerable) ---
+models/*.joblib
+models/*.json
+models/*.png
+!models/.gitkeep
+
+# --- NLTK downloaded data (if downloaded locally into project) ---
+nltk_data/
+
+# --- Streamlit ---
+.streamlit/
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# --- Logs ---
+*.log
+
+README.md
