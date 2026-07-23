@@ -114,7 +114,7 @@ export default function App() {
         </div>
         <p className="marquee__eyebrow">Content-based recommendations</p>
         <h1 className="marquee__title">
-          REEL <span>MATCH</span>
+          REAL <span>MATCH</span>
         </h1>
         <p className="marquee__sub">
           Tell us one movie you loved. We compare its genre, cast, director and
